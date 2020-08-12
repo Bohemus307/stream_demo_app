@@ -7,8 +7,6 @@ function fetchToken(username) {
   });
 }
 
-// Client Side
-
 // Fetch a channel list
 
 const filter = { type: 'messaging', members: { $in: ['thierry'] } };
